@@ -12,6 +12,7 @@ trigger:
     include:
       - master
       - feature/**
+      - bug/**
 
 pool:
   vmImage: 'windows-latest'
